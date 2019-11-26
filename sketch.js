@@ -72,33 +72,44 @@ function setup() {
   goldenIdol.scale = 0.03;
   
   ground1 = createSprite(width/2 - width/2.2 ,height/2 + 190,width/1.3 - width,10);
+   ground.visible = false;
+
   
   
   
   
     ground2 = createSprite(width/2 - width/4 ,height/2 + 160,width/1.3- width,10);
+    ground2.visible = false;
+
   
       ground3 = createSprite(width/2 - width/6,height/2 + 200,width/1.3- width,10);
-  
+     ground3.visible = false;
+
     ground4 = createSprite(width/2 + width/2.4,height/2 + 100,width/1.3- width,10);
-  
+     ground4.visible = false;
+
     ground5 = createSprite(width/2 + width/10,height/2 + 260,width/1.3- width,10);
-  
+     ground5.visible = false;
+
       ground6 = createSprite(width/2 + width/3.7,height/2 + 150,width/1.3- width,10);
+   ground6.visible = false;
 
   
   
   stand_ground = createSprite(width/2 + width/6.2,height/2 + 200,10,90);
-  
+     stand_ground.visible = false;
+
 
   
   
   
   
   inv_steps = createSprite(width/2 + width/17,height/2 + 25,width/1.3- width,10);
+   inv_steps.visible = false;
 
   
   inv_steps2 = createSprite(width/2 - width/3.2,height/2 - 30,width/1.3- width,10);
+   inv_steps2.visible = false;
 
   
   Game_over = createSprite(width/2,height/2,70,70);
