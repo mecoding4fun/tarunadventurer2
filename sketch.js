@@ -162,7 +162,7 @@ function draw() {
     
     hero.velocityX = 3;
     
-    if (hero.x > 800){
+    if (hero.x > windowWidth){
     hero.x = 20;
       hero.y = 310;
     }
