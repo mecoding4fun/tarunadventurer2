@@ -13,7 +13,7 @@ var inv_steps2;
 var Game_over,gameover_image;
 var restart,restart_button;
 var stand_ground;
-var score = 0;
+var score = 180;
 
 var PLAY = 1;
 var END = 0;
