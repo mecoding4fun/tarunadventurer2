@@ -264,6 +264,8 @@ var bombs = createSprite(400,5,30,30);
 }
 hero.x = 20;
   hero.y = 310;
+   hero.velocityX = 3;
+  hero.velocityY = 1;
 }
 
 function reset(){
