@@ -194,6 +194,10 @@ if(keyDown("space")  ||  touches.length > 0 ) {
   if(bombsGroup.isTouching(hero) && GameState === PLAY){  
    GameState = END;
     }
+   
+   if(GameState = END && touches.length > 0){
+   reset();
+   }
     
 
     
@@ -257,4 +261,19 @@ var bombs = createSprite(400,5,30,30);
 }
 hero.x = 20;
   hero.y = 310;
+}
+
+function reset(){
+  hero.x = 20;
+  hero.y = 310;
+ 
+ GameState = PLAY;
+ 
+ 
+  goldenIdol.x = random(width - 30,width - 450);
+  goldenIdol.y = random(height - 190,height - 490);
+
+
+
+
 }
