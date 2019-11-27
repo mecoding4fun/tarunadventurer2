@@ -72,7 +72,7 @@ function setup() {
   goldenIdol.scale = 0.03;
   
   ground1 = createSprite(width/2 - width/2.2 ,height/2 + 190,width/1.3 - width,10);
-   ground.visible = false;
+   ground1.visible = false;
 
   
   
