@@ -139,6 +139,8 @@ function draw() {
 
   
   if(GameState === PLAY){
+     Game_over.visible = false;
+
   
     hero.collide(ground1);
     hero.collide(stepsGroup);
@@ -276,7 +278,6 @@ function reset(){
  
     hero.changeAnimation("run", hero_run);
  
- Game_over.visible = false;
  
  score = 0;
  
