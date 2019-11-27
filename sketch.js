@@ -275,6 +275,11 @@ function reset(){
   goldenIdol.y = random(height - 190,height - 490);
  
     hero.changeAnimation("run", hero_run);
+ 
+ Game_over.visible = false;
+ 
+ score = 0;
+ 
 
 
 
