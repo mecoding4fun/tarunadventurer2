@@ -195,9 +195,7 @@ if(keyDown("space")  ||  touches.length > 0 ) {
    GameState = END;
     }
    
-   if(GameState = END && touches.length > 0){
-   reset();
-   }
+
     
 
     
@@ -209,13 +207,16 @@ if(keyDown("space")  ||  touches.length > 0 ) {
  spawnBombs();
     
   }
-   if(GameState === END){
+   if(GameState === END ){
      hero.x = 20;
     hero.y = 310;
 hero.changeAnimation("dead",hero_dead);
   Game_over.visible = true;
  }
-
+   if(GameState === END  && touches.length > 0){
+   reset();
+      touches = [];
+   }
   drawSprites();
 
 
