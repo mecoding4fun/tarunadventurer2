@@ -272,6 +272,8 @@ function reset(){
  
   goldenIdol.x = random(width - 30,width - 450);
   goldenIdol.y = random(height - 190,height - 490);
+ 
+    hero.changeAnimation("run", hero_run);
 
 
 
